@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.SecondaryController">
+    <children>
+        <Button fx:id="Hamburguesa" layoutX="26.0" layoutY="56.0" mnemonicParsing="false" onAction="#añadirAlimento" text="Hamburguesa" />
+        <Button fx:id="Cerveza" layoutX="136.0" layoutY="56.0" mnemonicParsing="false" onAction="#añadirAlimento" text="Cerveza" />
+        <Button fx:id="Pizza" layoutX="246.0" layoutY="56.0" mnemonicParsing="false" onAction="#añadirAlimento" text="Pizza" />
+        <Button fx:id="Patatas_Fritas" layoutX="356.0" layoutY="56.0" mnemonicParsing="false" onAction="#añadirAlimento" text="Patatas Fritas" />
+        <Button fx:id="Ensalada" layoutX="466.0" layoutY="56.0" mnemonicParsing="false" onAction="#añadirAlimento" text="Ensalada" />
+        <ListView fx:id="listacoman" layoutX="26.0" layoutY="113.0" prefHeight="200.0" prefWidth="549.0" />
+        <TextArea fx:id="Total" layoutX="505.0" layoutY="328.0" prefHeight="46.0" prefWidth="70.0" />
+        <Button layoutX="26.0" layoutY="328.0" mnemonicParsing="false" onAction="#Pago" text="Pagar" />
+        <Button layoutX="86.0" layoutY="328.0" mnemonicParsing="false" onAction="#eliminar" text="Eliminar" />
+    </children>
+</AnchorPane>
+
